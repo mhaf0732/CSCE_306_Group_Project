@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>inbox-hacker_chat</title>
+    <style>
+        body{
+            background-color: black;
+            color: chartreuse;
+            font-family: "Andale Mono";
+        }
+
+        #heading{
+            font-family: "Andale Mono";
+            text-align: center;
+            margin-top: 5px;
+            font-size: xx-large;
+        }
+        .inbox_tbl{
+            border: 1px solid aliceblue;
+            border-collapse:collapse;
+            text-align: center;
+            margin-top: 5%;
+            margin-left: 5%;
+            padding: 10px;
+        }
+        table{
+            width:90%;
+        }
+        #buttons, #new_message, #return{
+            font-family: "Andale Mono";
+            display: inline-block;
+            padding: 20px 40px;
+            margin: 5px 20px 5px 10px;
+            width: 40%;
+        }
+    </style>
+</head>
+<body>
+<div id="heading">
+    <h2>inbox</h2>
+</div>
+<table class="inbox_tbl">
+    <tr class = "inbox_tbl">
+        <td class = "inbox_tbl">date</td>
+        <td class = "inbox_tbl">from</td>
+        <td class = "inbox_tbl">preview conversation</td>
+        <td class = "inbox_tbl">read/unread</td>
+    </tr>
+    <tr class = "inbox_tbl">
+        <td class = "inbox_tbl">4/1/22</td>
+        <td class = "inbox_tbl"></td>
+        <td class = "inbox_tbl"></td>
+        <td class = "inbox_tbl"></td>
+    </tr>
+    <tr class = "inbox_tbl">
+        <td class = "inbox_tbl">4/2/22</td>
+        <td class = "inbox_tbl"></td>
+        <td class = "inbox_tbl"></td>
+        <td class = "inbox_tbl"></td>
+    </tr>
+    <tr class = "inbox_tbl">
+        <td class = "inbox_tbl">4/3/22</td>
+        <td class = "inbox_tbl"></td>
+        <td class = "inbox_tbl"></td>
+        <td class = "inbox_tbl"></td>
+    </tr>
+
+
+</table>
+
+<div id="buttons">
+    <button id="new_message">new_message</button>
+    <button id="return" onclick="window.location.href='../final group project 306/dashboard_screen.html';">return</button>
+</div>
+
+</body>
+</html>
