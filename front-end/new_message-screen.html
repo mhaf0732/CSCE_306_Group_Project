@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>new_message-hacker chat</title>
+    <style>
+        body{
+            background-color: black;
+            color: chartreuse;
+            font-family: "Andale Mono";
+        }
+        #heading{
+            font-family: "Andale Mono";
+            text-align: left;
+            margin-top: 5px;
+            font-size: xx-large;
+        }
+
+        #to_msg{
+            margin-left:20px;
+
+        }
+        #body_msg{
+            padding-bottom: 50px;
+            padding-right:50px;
+        }
+        #send_button, #return_to_inbox{
+            margin-left: 50px;
+            text-align: center;
+            padding: 14px 20px;
+            display: inline-block;
+            font-family: "Andale Mono"
+        }
+        #return_to_inbox{
+            font-family: "Andale Mono";
+            margin-top: 10px;
+        }
+
+    </style>
+</head>
+<body>
+<div id="heading">
+    <h2>new_message</h2>
+</div>
+
+<div class="msg_form">
+    <form class="msg_form">
+        <label for="to_msg">to:</label>
+        <input type="text" id="to_msg" name="to_msg"><br><br>
+
+        <label for="body_msg">body:</label>
+        <input type="text" id="body_msg" name="body_msg" maxlength="250" size="40"><br><br>
+
+        <input type="send" id= "send_button" value="send">
+    </form>
+    <button type="button" id="return_to_inbox" onclick="window.location.href='../final group project 306/inbox-screen.html';">inbox_return</button>
+</div>
+
+</body>
+</html>
