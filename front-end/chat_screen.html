@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>chat-hacker_chat</title>
+    <style>
+        body{
+            background-color: black;
+            color: chartreuse;
+            font-family: "Andale Mono";
+        }
+        #heading{
+            font-family: "Andale Mono";
+            text-align: center;
+            margin-top: 2px;
+            font-size: large;
+        }
+        #msg, .msg{
+            margin-left: 70%;
+        }
+        #message, .message{
+            margin-left: 10%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="heading">
+        <h1>"going to be the username of the person"</h1>
+        <br>
+        <h5>"going to be the current date"</h5>
+    </div>
+
+    <form class="conversation">
+        <!--incoming message-->
+        <input type="text" id="message" name="message"><br><br>
+        <label for="message" class="message">timestamp or username</label>
+
+        <!--outgoing message-->
+        <input type="text" id="msg" name="msg"><br><br>
+        <label for="msg" class="msg">timestamp or username</label>
+
+
+    </form>
+
+
+</body>
+</html>
