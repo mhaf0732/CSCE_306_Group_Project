@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard-hacker_chat</title>
+    <style>
+        body{
+            background-color: black;
+            color: chartreuse;
+            font-family: "Andale Mono";
+        }
+        .dash_buttons{
+            font-family: "Andale Mono";
+            text-align: center;
+            display:block;
+            margin-left: 40%;
+            margin-right: 50%;
+            margin-top:5%;
+            padding: 14px 40px;
+        }
+        #view_profile{
+            margin-left: 37.5%;
+        }
+        #profile_search{
+            margin-left: 37.5%;
+        }
+        #acc_settings{
+            margin-left: 37%;
+        }
+        #logout{
+            margin-left: 39.5%;
+        }
+    </style>
+</head>
+<body>
+<button class = "dash_buttons" onclick="window.location.href='inbox-screen';">inbox</button>
+<button class = "dash_buttons" id="view_profile" onclick="window.location.href='userprofile-screen';">view_profile</button>
+<button class = "dash_buttons" id="profile_search" onclick="window.location.href='profile_search-screen';">profile_search</button>
+<button class = "dash_buttons" id="acc_settings" onclick="window.location.href='personal_profile_screen';">account_settings</button>
+<button class = "dash_buttons" id="logout" onclick="window.location.href='';">log_out</button>
+
+</body>
+</html>
